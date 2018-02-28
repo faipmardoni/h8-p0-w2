@@ -4,51 +4,51 @@ var tahun = 1945;
 
 switch (bulan) {
   case 1: {
-    console.log(hari,'Januari',tahun);
+    bulan = 'Januari';
     break;
   }
   case 2: {
-    console.log(hari,'Februari',tahun);
+    bulan = 'Februari';
     break;
   }
   case 3: {
-    console.log(hari,'Maret',tahun);
+    bulan = 'Maret';
     break;
   }
   case 4: {
-    console.log(hari,'April',tahun);
+    bulan = 'April';
     break;
   }
   case 5: {
-    console.log(hari,'Mei',tahun);
+    bulan = 'Mei';
     break;
   }
   case 6: {
-    console.log(hari,'Juni',tahun);
+    bulan = 'Juni';
     break;
   }
   case 7: {
-    console.log(hari,'Juli',tahun);
+    bulan = 'Juli';
     break;
   }
   case 8: {
-    console.log(hari,'Agustus',tahun);
+    bulan = 'Agustus';
     break;
   }
   case 9: {
-    console.log(hari,'September',tahun);
+    bulan = 'September';
     break;
   }
   case 10: {
-    console.log(hari,'Oktober',tahun);
+    bulan = 'Oktober';
     break;
   }
   case 11: {
-    console.log(hari,'November',tahun);
+    bulan = 'November';
     break;
   }
   case 12: {
-    console.log(hari,'Desember',tahun);
+    bulan = 'Desember';
     break;
   }
   default: {
@@ -56,3 +56,4 @@ switch (bulan) {
     break;
   }
 }
+console.log(hari,bulan,tahun);
