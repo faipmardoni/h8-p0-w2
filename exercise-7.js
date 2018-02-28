@@ -9,11 +9,7 @@ var rows2 = 5;
 var star2 = '';
 for (var j=0; j<rows2; j++) {
     for (var k=0; k<rows2; k++) {
-        if(k<rows2) {
-            star2+='*';
-        }else {
-            star2+='';
-        }
+        star2+='*';
     }
     star2+='\n'
 }
