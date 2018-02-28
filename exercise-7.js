@@ -21,16 +21,16 @@ console.log(star2);
 
 var rows3 = '5';
 var star3 = '';
-var block = rows3
-for (var l=rows3; l>0; l--) {
-    for (var m=5; m>0; m--) {
-        if(m>=block) {
+var batas = 0;
+for (var l=0; l<rows3; l++) {
+    for (var m=0; m<rows3; m++) {
+        if(m<=batas) {
             star3+='*'
         }else {
             star3+='';
         }
     }
-    block--;
+    batas++;
     star3+='\n';
 }
 console.log(star3);
