@@ -17,16 +17,10 @@ console.log(star2);
 
 var rows3 = '5';
 var star3 = '';
-var batas = 0;
-for (var l=0; l<rows3; l++) {
-    for (var m=0; m<rows3; m++) {
-        if(m<=batas) {
-            star3+='*'
-        }else {
-            star3+='';
-        }
+for (var l=1; l<=rows3; l++) {
+    for (var m=1; m<=l; m++) {
+        star3+='*';
     }
-    batas++;
     star3+='\n';
 }
 console.log(star3);
